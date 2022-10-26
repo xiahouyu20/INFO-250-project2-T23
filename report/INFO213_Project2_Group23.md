@@ -31,7 +31,7 @@ Looking at the original image, we can find that it is presented in a complex way
 The original visualization(Figure 1) chooses a **stacked Polar area diagram**, or **Nightingale rose diagram**, to organize all the data together. The **visual variables** include “total retail sales of consumer goods”, “sales of commercial housing”, “sales of residential housing”, “sales of China's top 100 chain stores”, “sales of China's top 100 fast_moving consumer goods”, “Total retail sales of alcoholic products from enterprises above designated size in China” and “Total retail sales of snack foods in China”. Specifically, sales of different elements are stacked in increasing order of data size from the inner ring to the outer ring, with the polar coordinates increasing clockwise from 2012 to 2021.
 
 Here is our **replication** of the original visualization (using Matplotlib in Python):
-<div align=center><img src = "replication.svg" style="transform:scale(1.3)"></img>Figure 1. Replication</div>
+<div align=center><img src = "images/rose_replicated.svg" style="transform:scale(1.3)"></img>Figure 1. Replication</div>
 </br>
 The visualization is only as helpful as it is understandable. We have to admit that this visualization is much easier to understand than the data alone. Just looking at the data makes it more confusing, while the visualized graph is clear.  
 
@@ -57,13 +57,11 @@ As a result, we make the following improvements:
 </br>       
 2. From **each element display**, we use small multiples to display each element. Several elements near the center of the circle in the original figure, such as "Total retail sales of snack foods in China", are hardly visible in the original figure due to their small radius, not to mention reflecting the changing trend of each ingredient. Therefore, we use small multiples to display each element, which can not only better reflect the changes of each element but also allow readers to analyze a certain element.
 </br>   
-3. From the **focus and sub-focus of the visualization**, we adjust the size of different small multiples to indicate the different importance of different elements in the visualization. Although the area of different elements in the original picture reflects the importance of different elements, it is difficult for readers to observe elements close to the center of the circle. By changing the size of different small multiples, we emphasize the importance of different elements. Besides, it is simple and beautiful and enables readers to see the data of different elements more clearly.  
-
-And here  is our improvement of the original visualization:
-<center><img src = "improvement.svg" style="transform:scale(1.2)"></img>Figure 2. The Improvement</center>
+3. From the **focus and sub-focus of the visualization**, we adjust the size of different small multiples to indicate the different importance of different elements in the visualization. Although the area of different elements in the original picture reflects the importance of different elements, it is difficult for readers to observe elements close to the center of the circle. By changing the size of different small multiples, we emphasize the importance of different elements. Besides, it is simple and beautiful and enables readers to see the data of different elements more clearly.
+<center><img src = "images/rose_improved.svg" style="transform:scale(1.2)"></img>Figure 2. The Improvement</center>
 </br>
 
-What's more, these changes could also be applied to other generic graphs:
+What's more, these change could also be applied to other generic graphs:
 - When the visualization uses a too unnormal graph which takes too much time for readers to understand it, the visulization can be just replaced by another normal forms.
 - When the data-ink is too low, the visualization could get a higher data-ink by by removing useless borders and avoiding elements that interfere with vision and so on.
 - Keep real and avoid lie factor.
