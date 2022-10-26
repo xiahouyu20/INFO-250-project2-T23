@@ -13,7 +13,7 @@ The link of the original visualization is:
 ### Other Work
 &ensp; At the begining of the work, we selected three visualization that may have deficiencies. We made replications for all of the three visualizations, and make improvement for two of them. We decided to adopt one visualization that shows 7 China's economic indicators in the past decade as our project target.  
 &ensp; Those pre-work will be showen in catalogue **other_work**.  
-<br>
+
 ### Catalogue Structure  
 - Our reports are put in folder **report**.
 - The code of replication and improvement lay in **project2.ipynb**, which is in folder **code**.
