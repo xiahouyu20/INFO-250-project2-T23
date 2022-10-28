@@ -29,9 +29,6 @@ The link of the original visualization is:
 |   +-- INFO213_Project2_Group23.md
 |   +-- INFO213_Project2_Group23.pdf
 |   +-- images
-|      +-- Multi-level-Pie-Charts.jpg
-|      +-- Multi-level-Pie-Charts_improved.jpg
-|      +-- Multi-level-Pie-Charts_replicated.jpg
 |      +-- rose.png
 |      +-- rose_improved.svg
 |      +-- rose_replicated.svg
