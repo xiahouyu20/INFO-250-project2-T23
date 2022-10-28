@@ -1,7 +1,7 @@
-<h1 style="text-align:center"> Lanzhou University </h1>
-<h2 style = "text-align:center">INFO 250: Information Visualization</h2>
-<h3 style = "text-align:center">Project 2</h3>
-<div style="text-align:center; border-style:solid; padding: 10px">
+<h1 align=center> Lanzhou University </h1>
+<h2 align=center>INFO 250: Information Visualization</h2>
+<h3 align=center>Project 2</h3>
+<div align=center style="text-align:center; border-style:solid; padding: 10px">
 <div style="font-weight:bold">Group 23</div>
 <div>Haiyi Wang: 320200931281</div>
 <div>Siyang Xie: 320200931361</div>
@@ -9,7 +9,7 @@
 <div>Longhao Li: 320200931051</div></div>
 </br>
 <hr/>
-<h2 style = "text-align:center" style="font-weight:bold">How to build a simple, understandable visualization?</br>An improvement of Nightingale rose diagram</h2>
+<h2 align=center style="font-weight:bold">How to build a simple, understandable visualization?</br>An improvement of Nightingale rose diagram</h2>
 
 
 ### 1. Abstract
@@ -53,12 +53,14 @@ In our opinion, using Polar area diagram to organize these data is like reckless
 ### 4. The Improvement of the Original Visulization
 
 As a result, we make the following improvements: 
- 1. From the **whole visualization level**, we changed the expression form of visualization. We use bar chart instead of Nightingale rose diagram. Since the relationship between radius and area is square, the Nightingale rose map visually exaggerates the scale of the data. This will mislead to the reader to some extent. By using bar charts, it can not only present the sales volume in different years but also reflect the data relationship between different elements to avoid cheating.
-</br>       
+1. From the **whole visualization level**, we changed the expression form of visualization. We use bar chart instead of Nightingale rose diagram. Since the relationship between radius and area is square, the Nightingale rose map visually exaggerates the scale of the data. This will mislead to the reader to some extent. By using bar charts, it can not only present the sales volume in different years but also reflect the data relationship between different elements to avoid cheating.
+</br>
+
 2. From **each element display**, we use small multiples to display each element. Several elements near the center of the circle in the original figure, such as "Total retail sales of snack foods in China", are hardly visible in the original figure due to their small radius, not to mention reflecting the changing trend of each ingredient. Therefore, we use small multiples to display each element, which can not only better reflect the changes of each element but also allow readers to analyze a certain element.
 </br>   
+
 3. From the **focus and sub-focus of the visualization**, we adjust the size of different small multiples to indicate the different importance of different elements in the visualization. Although the area of different elements in the original picture reflects the importance of different elements, it is difficult for readers to observe elements close to the center of the circle. By changing the size of different small multiples, we emphasize the importance of different elements. Besides, it is simple and beautiful and enables readers to see the data of different elements more clearly.
-<center><img src = "images/rose_improved.svg" style="transform:scale(1.2)"></img>Figure 2. The Improvement</center>
+<div align=center><img src = "images/rose_improved.svg" style="transform:scale(1.2)"></img>Figure 2. The Improvement</div>
 </br>
 
 What's more, these change could also be applied to other generic graphs:
