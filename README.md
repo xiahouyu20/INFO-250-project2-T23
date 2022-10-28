@@ -18,7 +18,7 @@ The link of the original visualization is:
 - Our reports are put in folder **report**.
 - The code of replication and improvement lay in **project2.ipynb**, which is in folder **code**.
 - The work we did in exploration is saved in folder **other_work**.
-- All images need are saved in folder **images** of **report**.
+- All images needed are saved in folder **images** of **report**.
 ```
 +-- code
 |   +-- project2.ipynb
